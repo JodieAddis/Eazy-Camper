@@ -1,0 +1,177 @@
+body{
+    margin: auto 0;
+}
+header {
+    background-image: url(/assets/img/Rectangle_1.png);
+    background-size: cover;
+}
+.headerbtn {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px 20px 120px;
+}
+.headerbtn img{
+    cursor: pointer;
+}
+.header1 {
+    background-color: white;
+    width: 40%;
+    flex-direction: column;
+    display: flex;
+    padding: 40px 80px 40px 30px;
+    transform: translate(120px, 300px);
+    box-shadow: 0px 6px 15px 9px rgba(0,0,0,0.19);
+}
+.header1 h1, .header1 p{
+    width: 70%;
+}
+.header1 p, .header1 img{
+    padding-left: 40px;
+}
+.header1 img {
+    width: 250px;
+    height: 65px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.header1 span {
+    color: #F78065;
+}
+.container1 {
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content1 {
+    width: 380px;
+}
+.content1 img{
+    margin-bottom: 50px;
+}
+.txt {
+    color:#F78065;
+    font-weight: 900;
+}
+h1 {
+    font-family: 'Merriweather', serif;
+    margin: 70px 0 20px 40px;
+}
+.title1{
+    
+}
+.content2 h2 {
+    margin-top: 40px;
+}
+/* Application de la même police à tous les paragraphes*/
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.content2 {
+    width: 275px;
+    height: 250px;
+    margin-top: 40px;
+}
+.content2 p {
+    padding-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: #F78065;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    align-self: end;
+}
+
+/* Main partie 2*/
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 230px 230px 230px;
+    column-gap: 50px ;
+    margin: 100px 80px 0px 80px;
+}
+.contentTxt h2{
+    padding-top: 20px;
+    font-size: 30px;
+    width: 40%;
+}
+.contentTxt p{
+    width: 60%;
+}
+button {
+    background-color: #F78065;
+    color: white;
+    border: none;
+    padding: 15px 60px 15px 60px;
+    margin-top: 5px;
+}
+.title1, .title2{
+    margin: 100px 0 0 80px;
+    font-size: 30px;
+}
+.container4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 45px;
+    margin: 80px 80px 200px 80px;
+}
+.container4 img{
+    margin-bottom: 50px;
+}
+
+.container4 h3{
+    font-size: 25px;
+}
+.subContent{
+    margin-top: 60px;
+}
+
+/*Footer*/
+footer{
+    background-color: #F7F7F7;
+}
+.topFoot{
+    display: grid;
+    grid-template-columns: 1fr 230px 230px 230px ;
+    column-gap: 50px;
+    padding: 100px 80px 100px 80px ;
+}
+.title3{
+    font-size: 40px;
+    width: 30%;
+}
+.topFoot a{
+    color: black;
+}
+.Links{
+    display: flex;
+    flex-direction: column;
+}
+.Links a{
+    align-self: flex-start;
+    padding-bottom: 40px;
+}
+.Links h3{
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+.botFoot{
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    margin: 20px 80px 20px 80px;
+}
+.botFoot{
+    margin: 0 80px 0 80px;
+}
+.botFoot a {
+    color: black;
+    font-weight: 400;
+    padding-left: 30px;
+}
